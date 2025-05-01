@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Virtual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Biblioteca Virtual</h1>
+    <p>Bienvenido a tu espacio de lectura y escucha. Accede a libros en PDF y audiolibros.</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#libros">Libros PDF</a>
+    <a href="#audiolibros">Audiolibros</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Esta biblioteca virtual ha sido creada como proyecto universitario. Aquí puedes encontrar libros en formato PDF y audiolibros para descargar o disfrutar en línea.</p>
+  </section>
+
+  <section id="libros">
+    <h2>Libros PDF</h2>
+    <h3>Categorías</h3>
+    <div class="categoria-list">
+      <a href="#informatica" class="categoria-item">Informática</a>
+      <!-- Puedes agregar más categorías aquí si lo deseas -->
+    </div>
+
+    <!-- Categoría Informática -->
+    <section id="informatica">
+      <h2>Libros de Informática</h2>
+      <div class="book-list">
+        <div class="item">
+          <h3>Tecnicas De Analisis De Datos</h3>
+          <a href="/libros/informatica/libro1.pdf" target="_blank">Ver PDF</a>
+          <a href="/libros/informatica/libro1.pdf" download>Descargar</a>
+        </div>
+        <div class="item">
+          
+        <!-- Agrega más libros de informática aquí -->
+      </div>
+    </section>
+  </section>
+
+  <section id="audiolibros">
+    <h2>Audiolibros</h2>
+    <div class="audio-list">
+      <div class="item">
+        <h3>Ejemplo de Audiolibro 1</h3>
+        <audio controls>
+          <source src="audiolibros/audio1.mp3" type="audio/mpeg">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+        <a href="audiolibros/audio1.mp3" download>Descargar</a>
+      </div>
+      <!-- Agrega más audiolibros aquí -->
+    </div>
+  </section>
+</body>
+</html>
